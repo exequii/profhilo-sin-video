@@ -1,0 +1,588 @@
+@font-face {
+  font-family: Barcelony;
+  src: url(../tipografias/Barcelony.otf);
+}
+
+@font-face {
+  font-family: Avenir-bold;
+  src: url(../tipografias/Avenir/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+  font-family: Avenir-it;
+  src: url(../tipografias/Avenir/AvenirNextLTPro-It.otf);
+}
+
+@font-face {
+  font-family: Avenir-regular;
+  src: url(../tipografias/Avenir/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Avenir-lts-black;
+  src: url(../tipografias/Avenir/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+  font-family: Avenir-lts-book;
+  src: url(../tipografias/Avenir/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: Avenir-lts-roman;
+  src: url(../tipografias/Avenir/AvenirLTStd-Roman.otf);
+}
+
+:root {
+  --main-azul: #06326b;
+  --main-gris: #494448;
+}
+
+/****************************************************************************************************************/
+
+.head {
+  height: 390px;
+}
+
+.head img {
+  width: 30%;
+}
+
+.head h2 {
+  margin-top: 40px;
+  color: white;
+  font-family: Avenir-regular;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+/******************************************************************************************************************/
+
+.negrita {
+  font-family: Avenir-bold;
+}
+
+.beautify {
+  font-family: Barcelony !important;
+  font-size: 2.8em !important;
+}
+
+/******************************************************************************************************************/
+
+.muestra {
+  min-height: 450px;
+}
+
+.muestra p {
+  font-family: Avenir-regular;
+  line-height: 20px;
+}
+
+.muestra h3 {
+  font-family: Avenir-regular;
+  font-weight: 550;
+  color: var(--main-azul);
+  font-size: 3em;
+  text-align: center;
+}
+
+.sobre {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.muestra img {
+  width: 25%;
+}
+
+/********************************************************************************************************************/
+
+.c-50 {
+  width: 50%;
+  color: white;
+}
+
+.w-100 {
+  width: 100%;
+  color: white;
+}
+
+.back-marron {
+  background: url(../images/fondo-100.jpg);
+  width: 100%;
+}
+
+.back-gris {
+  background-color: var(--main-gris);
+}
+
+.back-gris img {
+  width: 8%;
+}
+
+.centrado-medio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-80 p {
+  font-family: Avenir-regular;
+  font-size: 1em;
+}
+
+.profesion {
+  font-family: Avenir-regular;
+  font-size: 1.1em;
+}
+
+/********************************************************************************************************************/
+
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+
+#carouselExampleIndicators1,
+.carousel-inner,
+.carousel-item {
+  height: 100% !important;
+}
+
+/********************************************************************************************************************/
+
+.sobre-profhilo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.sobre-profhilo p {
+  text-align: center;
+  width: 62%;
+  font-family: Avenir-regular;
+}
+
+.wrap-botones {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.boton-azul {
+  background-color: var(--main-azul);
+  color: white;
+  padding: 6px 45px;
+  border: 1px solid var(--main-azul);
+  border-radius: 10px;
+  transition: 1s all ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton-azul:hover {
+  background-color: white;
+  color: var(--main-azul);
+}
+
+.boton-blanco {
+  background-color: white;
+  color: var(--main-azul);
+  padding: 6px 35px;
+  border: 1px solid var(--main-azul);
+  border-radius: 10px;
+  transition: 1s all ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton-blanco:hover {
+  background-color: var(--main-azul);
+  color: white;
+}
+
+/*************************************************************************************************************************************/
+
+/* .contenedor-video{
+  height: 715px;
+} */
+
+/**************************************************************************************************************************************/
+
+footer {
+  background-color: var(--main-azul);
+  min-height: 330px;
+  display: flex;
+  background-image: url(../images/footer.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sumate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sumate h1 {
+  font-size: 3.1em;
+  font-family: Avenir-lts-black;
+}
+
+.izquierda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#probar-filtro {
+  background-color: white;
+  display: inline-block;
+  padding: 6px 45px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  color: var(--main-azul);
+  font-family: Avenir-regular;
+  font-weight: 400;
+  transition: 1s all ease-in-out;
+}
+
+#probar-filtro:hover {
+  color: white;
+  background-color: var(--main-azul);
+}
+
+.centrado-footer {
+  width: 90%;
+}
+
+#img-footer {
+  width: 100%;
+  height: 100%;
+}
+
+.relative {
+  display: none;
+}
+
+/***************************************************************************************************************************************/
+
+@media (max-width: 1420px) {
+  .wrap-botones {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .wrap-botones a {
+    margin-top: 20px;
+  }
+
+  #carouselExampleIndicators2 {
+    height: 100% !important;
+  }
+
+  #carouselExampleIndicators2 .carousel-inner img {
+    height: 100% !important;
+  }
+
+  /******************************************************************/
+
+  .w-80 p {
+    font-size: 0.9em;
+  }
+
+  .beautify {
+    font-size: 1.7em !important;
+  }
+
+  .profesion {
+    font-size: 0.7em !important;
+  }
+
+  .muestra p {
+    font-size: 0.9em;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 850px) {
+  footer {
+    min-height: 150px !important;
+    background-image: url(../images/footer-responsive2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .foto-footer {
+    display: none;
+  }
+
+  /********************************************/
+  .wrap-botones a {
+    margin-top: 20px;
+  }
+
+  .centrado-footer {
+    margin-left: 15px;
+  }
+
+  .sumate h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+
+  #probar-filtro {
+    font-size: 1em;
+    padding: 6px 35px;
+  }
+
+  .centrado-footer {
+    margin-left: 15px;
+  }
+
+  .foto-footer {
+    width: 60% !important;
+  }
+
+  /* #img-footer {
+    height: 90% !important;
+    width: 90% !important;
+  } */
+
+  .div-footer {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  /* iframe {
+    height: 400px;
+  } */
+
+  /* video {
+    height: 400px;
+  } */
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .reverse {
+    flex-direction: column-reverse !important;
+  }
+  .c-50 {
+    width: 100%;
+  }
+
+  .w-80 {
+    margin: 50px 0px;
+  }
+  /********************* TAMAÑOS DE TIPOGRAFIA ********************/
+
+  .head h2 {
+    font-size: 1.4em;
+  }
+
+  .muestra h3 {
+    font-size: 2em;
+  }
+
+  .w-80 p {
+    font-size: 0.9em;
+  }
+
+  .beautify {
+    font-size: 1.6em !important;
+  }
+
+  .profesion {
+    font-size: 0.7em !important;
+  }
+
+  .muestra p {
+    font-size: 0.9em;
+    font-weight: 5px;
+    width: 90%;
+  }
+
+  .sumate h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+
+  .wrap-botones a {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #probar-filtro {
+    font-size: 1em;
+    padding: 6px 35px;
+  }
+
+  .centrado-footer {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    min-height: 150px !important;
+    background-image: url(../images/footer-responsive2.jpg);
+    background-size: cover;
+  }
+
+  .foto-footer {
+    display: none;
+  }
+
+  .div-footer {
+    width: 55% !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrap-botones {
+    width: 70%;
+  }
+
+  .wrap-botones a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .w-80 {
+    margin: 50px 0px;
+  }
+
+  /****************************************************************/
+  .head {
+    height: 150px;
+  }
+
+  .head img {
+    width: 50%;
+  }
+
+  /****************************************************************/
+
+  .muestra img {
+    width: 50%;
+  }
+
+  /****************************************************************/
+
+  /* iframe {
+    height: 250px;
+  } */
+  /* 
+  video {
+    height: 250px;
+  } */
+
+  /****************************************************************/
+
+  footer {
+    flex-direction: column;
+    min-height: 150px !important;
+    background-image: url(../images/mockup\ filtro_negreo.png);
+    background-size: cover;
+  }
+
+  .centrado-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(41, 41, 41, 0.521); */
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 70%;
+  }
+
+  .centrado-footer p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .div-footer {
+    width: 100% !important;
+    margin-bottom: 0px;
+  }
+
+  .foto-footer {
+    display: none;
+  }
+
+  .boton-blanco {
+    padding: 6px 38px;
+  }
+
+  /********************* TAMAÑOS DE TIPOGRAFIA ********************/
+
+  .head h2 {
+    font-size: 1em;
+  }
+
+  .w-80 p {
+    font-size: 0.8em;
+  }
+
+  .beautify {
+    font-size: 1.4em !important;
+  }
+
+  .profesion {
+    font-size: 0.5em !important;
+  }
+
+  .muestra h3 {
+    font-size: 1.5em;
+  }
+
+  .muestra p {
+    font-size: 0.8em;
+    font-weight: 5px;
+    width: 90%;
+  }
+
+  .sumate h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .wrap-botones a {
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  #probar-filtro {
+    font-size: 0.7em;
+    margin-bottom: 15px;
+    padding: 6px 58px;
+  }
+
+  footer p {
+    font-size: 0.6em;
+  }
+}
