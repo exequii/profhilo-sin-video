@@ -371,9 +371,9 @@ footer {
 }
 
 @media (max-width: 700px) {
-  /* iframe {
+  iframe {
     height: 400px;
-  } */
+  }
 
   /* video {
     height: 400px;
@@ -491,9 +491,9 @@ footer {
 
   /****************************************************************/
 
-  /* iframe {
+  iframe {
     height: 250px;
-  } */
+  }
   /* 
   video {
     height: 250px;
