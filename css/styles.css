@@ -480,10 +480,18 @@ footer {
   }
 
   .head img {
-    width: 50%;
+    width: 70%;
+  }
+
+  .head h2 {
+    margin-top: 15px !important;
   }
 
   /****************************************************************/
+
+  .muestra {
+    min-height: 350px;
+  }
 
   .muestra img {
     width: 50%;
