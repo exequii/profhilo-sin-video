@@ -210,9 +210,13 @@
   color: white;
 }
 
+.text-sobre {
+  margin: 3rem 0px;
+}
+
 /*************************************************************************************************************************************/
 
-/* .contenedor-video{
+/* .contenedor-video {
   height: 715px;
 } */
 
@@ -502,12 +506,16 @@ footer {
     margin-bottom: 40px !important;
   }
 
+  .text-sobre {
+    margin: 10px 0px !important;
+  }
+
   /****************************************************************/
 
   iframe {
     height: 250px;
   }
-  /* 
+  /*
   video {
     height: 250px;
   } */
